@@ -49,5 +49,5 @@ group :test do
   gem 'shoulda-matchers', '<= 2.8.0'
   gem 'sqlite3', platforms: :mri
   gem 'selenium-webdriver'
-  gem 'chromedriver-helper', '1.1.0' # 1.2 causing build failure with JRuby.
+  gem 'chromedriver-helper', '2.1.1' # 1.2 causing build failure with JRuby.
 end
