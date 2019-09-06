@@ -46,7 +46,7 @@ group :test do
   gem 'rails-i18n' # Provides default i18n for many languages
   gem 'rspec-rails'
   gem 'i18n-spec'
-  gem 'shoulda-matchers', '<= 2.8.0'
+  gem 'shoulda-matchers', '<= 4.1.0'
   gem 'sqlite3', platforms: :mri
   gem 'selenium-webdriver'
   gem 'chromedriver-helper', '1.1.0' # 1.2 causing build failure with JRuby.
